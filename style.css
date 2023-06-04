@@ -1,0 +1,180 @@
+body {
+  font-family: "PT Sans", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+.icon {
+  width: 2rem;
+  height: 2rem;
+}
+footer {
+  text-align: right;
+  color: #252422;
+  text-shadow: 5px 5px 4px #ffdf00;
+}
+h1 {
+  font-size: 4rem;
+}
+.card-title {
+  text-transform: uppercase;
+}
+
+@media (min-width: 1200px) {
+  .icon {
+    width: 4rem;
+    height: 4rem;
+  }
+  #sp-h1 {
+    color: #ffdf00;
+  }
+  .card {
+    width: 25%;
+  }
+  .tile-image {
+    height: 14rem;
+    width: 21rem;
+    float: left;
+    margin-right: 3rem;
+  }
+  .left,
+  .right {
+    float: left;
+  }
+  .card-text {
+    font-size: 1rem;
+    text-align: justify;
+    width: 95%;
+    color: #252422;
+  }
+  .card-title {
+    color: #ffdf00;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #sp-h1 {
+    color: #ff006e;
+  }
+  .card {
+    width: 50%;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+  .tile-image {
+    width: 10rem;
+    float: left;
+    margin-right: 3rem;
+  }
+  footer {
+    text-shadow: 5px 5px 4px #ff006e;
+  }
+  .card-text {
+    font-size: 1rem;
+    text-align: justify;
+    width: 90%;
+  }
+  .card-title {
+    margin-top: 0;
+    color: #ff006e;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #sp-h1 {
+    color: #1ed760;
+  }
+  .card {
+    width: 50%;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+  .tile-image {
+    width: 10rem;
+    float: left;
+    margin-right: 3rem;
+  }
+  footer {
+    text-shadow: 5px 5px 4px #1ed760;
+  }
+  .card-text {
+    font-size: 1rem;
+    text-align: justify;
+    width: 90%;
+  }
+  .card-title {
+    margin-top: 0;
+    color: #1ed760;
+  }
+}
+@media (max-width: 767px) and (min-width: 540px) {
+  #sp-h1 {
+    color: #072ac8;
+  }
+  .card {
+    width: 65vh;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  .tile-image {
+    width: 65vh;
+    margin-right: 3rem;
+  }
+  footer {
+    text-shadow: 5px 5px 4px #072ac8;
+  }
+  .card-text {
+    font-size: 1rem;
+    text-align: justify;
+    width: 100%;
+  }
+  .card-title {
+    margin-top: 0;
+    color: #072ac8;
+  }
+}
+@media (max-width: 539px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  #sp-h1 {
+    color: #fb5607;
+  }
+  .card {
+    width: 40vh;
+  }
+  .tile-image {
+    width: 40vh;
+    margin-right: 3rem;
+  }
+  footer {
+    text-shadow: 5px 5px 4px #fb5607;
+  }
+  .card-text {
+    font-size: 1rem;
+    text-align: justify;
+    width: 100%;
+  }
+  .card-title {
+    margin-top: 0;
+    color: #fb5607;
+  }
+}
