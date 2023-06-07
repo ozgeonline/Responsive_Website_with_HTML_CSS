@@ -24,6 +24,18 @@ h1 {
 .card-title {
   text-transform: uppercase;
 }
+.btn-code{
+  width: 15vh;
+  height: 30px;
+  border-radius: 7px;
+  border: none;
+  background-color: #ffdf00;
+  color: #252422;
+  text-align: center;
+  box-shadow: 2px 3px 5px #252422;
+  cursor: pointer;
+}
+
 
 @media (min-width: 1200px) {
   .icon {
